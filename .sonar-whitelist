@@ -1,0 +1,6 @@
+# Sonar 白名单文件
+# 每行一个Java类路径，以#开头的行将被忽略
+# 格式示例：com.example.Test 或 com.example.*
+# 支持通配符 * 表示匹配任意包名
+
+com.example.demo.util.sonar.RSAUtil

@@ -1,0 +1,101 @@
+Plugins:
+  - C++ (Community) 2.1.2.736 (cxx)
+  - Chinese Pack 10.6 (l10nzh)
+  - ShellCheck Analyzer 2.5.0 (shellcheck)
+  - detekt 2.6.0 (detekt)
+  - SonarQube CNES Report 5.0.0 (cnesreport)
+  - Sonar WebDriver Plugin 1.0.10 (webdriver)
+  - Community Branch Plugin 1.21.0 (communityBranchPlugin)
+Bundled analyzers:
+  - Python Code Quality and Security 4.19.0.15616 (python)
+  - Clean as You Code 2.3.0.1782 (cayc)
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - IaC Code Quality and Security 1.31.0.10579 (iac)
+  - XML Code Quality and Security 2.10.0.4108 (xml)
+  - Text Code Quality and Security 2.12.1.2905 (text)
+Global server settings:
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.core.id=46AF5D23-AZErtUSOrCSxTsQWFWjX
+  - sonar.core.startTime=2024-12-13T09:54:44+0000
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.cxx.file.suffixes=-
+  - sonar.cxx.metric.api.file.suffixes=.hxx,.hpp,.hh,.h
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.flex.file.suffixes=as
+  - sonar.forceAuthentication=true
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.springconfig.file.patterns=**/src/main/resources/**/application*.properties,**/src/main/resources/**/application*.yaml,**/src/main/resources/**/application*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.plugins.risk.consent=ACCEPTED
+  - sonar.python.file.suffixes=py
+  - sonar.qualityProfiles.allowDisableInheritedRules=true
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.scala.file.suffixes=.scala
+  - sonar.shell.file.suffixes=.sh,.ksh,.bash
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xml,.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project server settings:
+  - sonar.azureresourcemanager.file.suffixes=.bicep
+  - sonar.cs.file.suffixes=.cs,.razor
+  - sonar.css.file.suffixes=.css,.less,.scss,.sass
+  - sonar.cxx.file.suffixes=-
+  - sonar.cxx.metric.api.file.suffixes=.hxx,.hpp,.hh,.h
+  - sonar.docker.file.patterns=Dockerfile,*.dockerfile
+  - sonar.flex.file.suffixes=as
+  - sonar.go.file.suffixes=.go
+  - sonar.html.file.suffixes=.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig
+  - sonar.java.file.suffixes=.java,.jav
+  - sonar.java.springconfig.file.patterns=**/src/main/resources/**/application*.properties,**/src/main/resources/**/application*.yaml,**/src/main/resources/**/application*.yml
+  - sonar.javascript.file.suffixes=.js,.jsx,.cjs,.mjs,.vue
+  - sonar.json.file.suffixes=.json
+  - sonar.jsp.file.suffixes=.jsp,.jspf,.jspx
+  - sonar.kotlin.file.suffixes=.kt,.kts
+  - sonar.php.file.suffixes=php,php3,php4,php5,phtml,inc
+  - sonar.python.file.suffixes=py
+  - sonar.ruby.file.suffixes=.rb
+  - sonar.scala.file.suffixes=.scala
+  - sonar.shell.file.suffixes=.sh,.ksh,.bash
+  - sonar.terraform.file.suffixes=.tf
+  - sonar.typescript.file.suffixes=.ts,.tsx,.cts,.mts
+  - sonar.vbnet.file.suffixes=.vb
+  - sonar.xml.file.suffixes=.xml,.xsd,.xsl,.config
+  - sonar.yaml.file.suffixes=.yaml,.yml
+Project scanner properties:
+  - sonar.exclusions=.
+  - sonar.host.url=https://ci.das-security.cn/sonarqube
+  - sonar.inclusions=**/*.java
+  - sonar.jacoco.reportPath=target/jacoco.exec
+  - sonar.java.binaries=.
+  - sonar.java.coveragePlugin=jacoco
+  - sonar.login=******
+  - sonar.projectBaseDir=/Users/xiesien/IdeaProjects/sonar-ai-test
+  - sonar.projectKey=project_3163435cf6a84bd6a43d7d8c39788866
+  - sonar.projectName=sonar-ai-test
+  - sonar.projectVersion=1.0
+  - sonar.scanner.apiBaseUrl=https://ci.das-security.cn/sonarqube/api/v2
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=7.0.2.4839
+  - sonar.scanner.arch=x86_64
+  - sonar.scanner.bootstrapStartTime=1750915876590
+  - sonar.scanner.os=macos
+  - sonar.scanner.truststorePassword=changeit
+  - sonar.scanner.truststorePath=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib/security/cacerts
+  - sonar.scanner.wasEngineCacheHit=true
+  - sonar.scanner.wasJreCacheHit=HIT
+  - sonar.scm.disabled=true
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=./
+  - sonar.surefire.reportsPath=target/surefire-reports
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/xiesien/IdeaProjects/sonar-ai-test/.scannerwork
+  - sonar.ws.timeout=60000

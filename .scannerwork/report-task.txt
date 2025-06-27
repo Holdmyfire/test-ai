@@ -1,0 +1,6 @@
+projectKey=project_3163435cf6a84bd6a43d7d8c39788866
+serverUrl=https://ci.das-security.cn/sonarqube
+serverVersion=10.6.0.92116
+dashboardUrl=https://ci.das-security.cn/sonarqube/dashboard?id=project_3163435cf6a84bd6a43d7d8c39788866
+ceTaskId=1900b604-048b-4250-907b-4aeb88f3f311
+ceTaskUrl=https://ci.das-security.cn/sonarqube/api/ce/task?id=1900b604-048b-4250-907b-4aeb88f3f311

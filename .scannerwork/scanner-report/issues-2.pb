@@ -1,0 +1,3 @@
+t
+javaS115ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. 2 %U
+javaS1118:Add a private constructor to hide the implicit public one. 2 

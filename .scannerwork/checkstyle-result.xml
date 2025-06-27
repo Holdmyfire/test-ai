@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.17.0">
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/util/sonar/SonarAI.java">
+</file>
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/util/sonar/Base64Util.java">
+</file>
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/DemoApplication.java">
+</file>
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/util/sonar/RSAUtil.java">
+</file>
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/util/sonar/StringUtil.java">
+</file>
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/util/sonar/FileUtil.java">
+</file>
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/util/sonar/ParamUtil.java">
+</file>
+<file name="/Users/xiesien/IdeaProjects/sonar-ai-test/src/main/java/com/example/demo/util/sonar/SqlUtil.java">
+</file>
+</checkstyle>
