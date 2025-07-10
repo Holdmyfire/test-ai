@@ -98,7 +98,10 @@ public class FileUtil {
     }
 
     /**
-     * 只删除文件夹里面内容
+     * Deletes all files and subdirectories within the specified directory, without deleting the directory itself.
+     *
+     * @param path the path to the directory whose contents will be deleted
+     * @return {@code true} if any directories were deleted; {@code false} otherwise
      */
     public static boolean delAllFile2(String path) {
         boolean flag = false;
@@ -130,8 +133,11 @@ public class FileUtil {
         }
         return flag;
     }
-    /**
-     * 只删除文件夹里面内容
+    /****
+     * Deletes all files and subdirectories within the specified directory, without deleting the directory itself.
+     *
+     * @param path the path to the directory whose contents will be deleted
+     * @return true if any subdirectories were deleted; false otherwise
      */
     public static boolean delAllFile3(String path) {
         boolean flag = false;
@@ -164,7 +170,10 @@ public class FileUtil {
         return flag;
     }
     /**
-     * 只删除文件夹里面内容
+     * Deletes all files and subdirectories within the specified directory, without deleting the directory itself.
+     *
+     * @param path the path to the directory whose contents will be deleted
+     * @return {@code true} if any subdirectories were deleted; {@code false} otherwise
      */
     public static boolean delAllFile4(String path) {
         boolean flag = false;
